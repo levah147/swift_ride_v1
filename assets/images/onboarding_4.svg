@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#f5f7fa" />
+  
+  <!-- Driver profile card -->
+  <rect x="250" y="150" width="300" height="280" rx="15" fill="#fff" stroke="#e2e8f0" stroke-width="4" />
+  
+  <!-- Driver photo -->
+  <circle cx="400" cy="210" r="50" fill="#cbd5e0" stroke="#a0aec0" stroke-width="3" />
+  <path d="M380,190 Q400,220 420,190" stroke="#4a5568" stroke-width="3" fill="none" />
+  <circle cx="385" cy="180" r="5" fill="#4a5568" />
+  <circle cx="415" cy="180" r="5" fill="#4a5568" />
+  
+  <!-- Driver name -->
+  <text x="400" y="280" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="bold" fill="#2d3748">
+    John Smith
+  </text>
+  
+  <!-- Rating -->
+  <g transform="translate(330, 300)">
+    <circle cx="0" cy="0" r="14" fill="#ffeb3b" />
+    <path d="M0,-10 L2,-3 L10,-3 L4,1 L6,8 L0,4 L-6,8 L-4,1 L-10,-3 L-2,-3 Z" fill="#f39c12" />
+    <circle cx="35" cy="0" r="14" fill="#ffeb3b" />
+    <path d="M35,-10 L37,-3 L45,-3 L39,1 L41,8 L35,4 L29,8 L31,1 L25,-3 L33,-3 Z" fill="#f39c12" />
+    <circle cx="70" cy="0" r="14" fill="#ffeb3b" />
+    <path d="M70,-10 L72,-3 L80,-3 L74,1 L76,8 L70,4 L64,8 L66,1 L60,-3 L68,-3 Z" fill="#f39c12" />
+    <circle cx="105" cy="0" r="14" fill="#ffeb3b" />
+    <path d="M105,-10 L107,-3 L115,-3 L109,1 L111,8 L105,4 L99,8 L101,1 L95,-3 L103,-3 Z" fill="#f39c12" />
+    <circle cx="140" cy="0" r="14" fill="#ffeb3b" />
+    <path d="M140,-10 L142,-3 L150,-3 L144,1 L146,8 L140,4 L134,8 L136,1 L130,-3 L138,-3 Z" fill="#f39c12" />
+  </g>
+  
+  <!-- Reviews -->
+  <text x="400" y="350" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#4a5568">
+    234 Trips • 4.9 Rating
+  </text>
+  
+  <!-- Verified badge -->
+  <g transform="translate(400, 385)">
+    <circle cx="0" cy="0" r="25" fill="#38a169" />
+    <path d="M-10,-5 L-5,5 L15,-10 L5,-10 L-5,0 L-10,-5" stroke="#fff" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round" />
+  </g>
+  
+  <!-- Shield icons on sides -->
+  <g transform="translate(180, 250)">
+    <path d="M0,0 L40,-20 L80,0 L80,60 L40,80 L0,60 Z" fill="#4299e1" stroke="#2b6cb0" stroke-width="3" />
+    <path d="M40,-10 L40,70 M20,10 L60,10 M20,30 L60,30 M20,50 L60,50" stroke="#fff" stroke-width="3" />
+  </g>
+  
+  <g transform="translate(540, 250)">
+    <path d="M0,0 L40,-20 L80,0 L80,60 L40,80 L0,60 Z" fill="#4299e1" stroke="#2b6cb0" stroke-width="3" />
+    <circle cx="40" cy="20" r="15" fill="none" stroke="#fff" stroke-width="3" />
+    <path d="M25,40 L55,40 M25,50 L55,50" stroke="#fff" stroke-width="3" />
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="500" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" font-weight="bold" fill="#2b6cb0">
+    Safe &amp; Reliable
+  </text>
+  <text x="400" y="540" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#4a5568">
+    All drivers are verified and rated by passengers
+  </text>
+</svg>

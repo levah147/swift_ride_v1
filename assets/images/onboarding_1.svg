@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#f5f7fa" />
+  
+  <!-- Road -->
+  <rect x="100" y="400" width="600" height="80" fill="#444" rx="5" />
+  <rect x="140" y="439" width="80" height="3" fill="#fff" />
+  <rect x="260" y="439" width="80" height="3" fill="#fff" />
+  <rect x="380" y="439" width="80" height="3" fill="#fff" />
+  <rect x="500" y="439" width="80" height="3" fill="#fff" />
+  <rect x="620" y="439" width="80" height="3" fill="#fff" />
+  
+  <!-- Car -->
+  <g transform="translate(280, 370) scale(1.2)">
+    <!-- Car body -->
+    <path d="M50,30 L200,30 L210,60 L220,90 L30,90 L40,60 Z" fill="#4299e1" stroke="#2b6cb0" stroke-width="2" />
+    
+    <!-- Windows -->
+    <path d="M70,30 L80,60 L190,60 L180,30 Z" fill="#ebf8ff" stroke="#2b6cb0" stroke-width="1" />
+    
+    <!-- Wheels -->
+    <circle cx="70" cy="90" r="20" fill="#2d3748" stroke="#1a202c" stroke-width="2" />
+    <circle cx="70" cy="90" r="10" fill="#718096" stroke="#4a5568" stroke-width="2" />
+    <circle cx="180" cy="90" r="20" fill="#2d3748" stroke="#1a202c" stroke-width="2" />
+    <circle cx="180" cy="90" r="10" fill="#718096" stroke="#4a5568" stroke-width="2" />
+    
+    <!-- Lights -->
+    <rect x="40" y="50" width="10" height="10" fill="#fff176" stroke="#fbc02d" stroke-width="1" rx="2" />
+    <rect x="200" y="50" width="10" height="10" fill="#ef5350" stroke="#c62828" stroke-width="1" rx="2" />
+  </g>
+  
+  <!-- Phone -->
+  <g transform="translate(500, 250)">
+    <rect x="0" y="0" width="70" height="120" rx="10" fill="#333" />
+    <rect x="5" y="10" width="60" height="100" rx="3" fill="#4299e1" />
+    <circle cx="35" cy="5" r="2" fill="#fff" />
+    <circle cx="35" cy="115" r="8" fill="#555" stroke="#333" stroke-width="1" />
+    
+    <!-- Map Pin -->
+    <circle cx="35" cy="60" r="8" fill="#e53e3e" />
+    <path d="M35,40 L35,60" stroke="#fff" stroke-width="2" />
+    <circle cx="35" cy="40" r="5" fill="#e53e3e" stroke="#fff" stroke-width="1" />
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="180" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" font-weight="bold" fill="#2b6cb0">
+    Welcome to Ride Hailing
+  </text>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#4a5568">
+    Your ride at your fingertips
+  </text>
+</svg>
